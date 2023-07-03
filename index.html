@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="./assets/css/normalize.css" rel="stylesheet">
+        <link href="./assets/css/reset.css" rel="stylesheet">
+        <link href="./assets/css/style.css" rel="stylesheet">
+        <script defer src="./assets/js/script.js"></script>
+        <title>Alura FruityFruit</title>
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar">
+                <h1 class="navbar__logo">
+                    <img class="logo__img" src="./assets/img/logo.jpg" alt="fruity fruit logo">
+                </h1>
+                <ul class="navbar__list">
+                    <li class="list__item"><a class="item__link active" href="#">home</a></li>
+                    <li class="list__item"><a class="item__link" href="#">cooking recipes</a></li>
+                    <li class="list__item"><a class="item__link" href="#">about us</a></li>
+                    <li class="list__item"><a class="item__link" href="#">contact</a></li>
+                </ul>
+                <div class="navbar__toggle-dropdown"><i class="fa-sharp fa-solid fa-bars" style="color: #000000;"></i></div>
+                <div class="navbar__dropdown">
+                    <li class="dropdown__item"><a class="dropdown__link active" href="#">home</a></li>
+                    <li class="dropdown__item"><a class="dropdown__link" href="#">cooking recipes</a></li>
+                    <li class="dropdown__item"><a class="dropdown__link" href="#">about us</a></li>
+                    <li class="dropdown__item"><a class="dropdown__link" href="#">contact</a></li>
+                </div>
+            </nav>
+        </header>
+
+        <section class="banner">
+            <div class="banner__img"></div>
+            <h2 class="banner__title">Make better use of food</h2>
+        </section>
+
+        <section class="about-us">
+            <h2 class="about-us__title">Recipes to economize and gain health</h2>
+            <p class="about-us__description">Our recipes help you make better use of food, save money, save time and practicality</p>
+        </section>
+
+        <section class="cooking-recipes">
+            <div class="recipe__card">
+                <img src="./assets/img/recetas/ensalada-de-frutas.jpg" alt="avocado bowl recipe photo" class="card__img">
+                <h3 class="card__title">avocado bowl</h3>
+                <p class="card__description">Refreshing recipe and full of vitamins for your breakfast</p>
+                <button class="card__button">See recipe</button>
+            </div>
+            <div class="recipe__card">
+                <img src="./assets/img/recetas/ensalada-de-kiwi.jpg" alt="kiwi salad recipe photo" class="card__img">
+                <div class="card__info">
+                    <h3 class="card__title">kiwi salad</h3>
+                    <p class="card__description">Refreshing recipe and full of vitamins for your breakfast</p>
+                    <button class="card__button">See recipe</button>
+                </div>
+            </div>
+            <div class="recipe__card">
+                <img src="./assets/img/recetas/mix-de-vegetales.jpg" alt="vegetable mix recipe photo" class="card__img">
+                <div class="card__info">
+                    <h3 class="card__title">vegetable mix</h3>
+                    <p class="card__description">Refreshing recipe and full of vitamins for your breakfast</p>
+                    <button class="card__button">See recipe</button>
+                </div>
+            </div>
+            <div class="recipe__card">
+                <img src="./assets/img/recetas/pimentones-juliana.jpg" alt="julienne peppers recipe photo" class="card__img">
+                <div class="card__info">
+                    <h3 class="card__title">julienne peppers</h3>
+                    <p class="card__description">Refreshing recipe and full of vitamins for your breakfast</p>
+                    <button class="card__button">See recipe</button>
+                </div>
+            </div>
+            <div class="recipe__card">
+                <img src="./assets/img/recetas/plato-oriental.jpg" alt="oriental dish recipe photo" class="card__img">
+                <div class="card__info">
+                    <h3 class="card__title">oriental dish</h3>
+                    <p class="card__description">Refreshing recipe and full of vitamins for your breakfast</p>
+                    <button class="card__button">See recipe</button>
+                </div>
+            </div>
+            <div class="recipe__card">
+                <img src="./assets/img/recetas/beterrabas-asadas.jpg" alt="baked beets recipe photo" class="card__img">
+                <div class="card__info">
+                    <h3 class="card__title">baked beets</h3>
+                    <p class="card__description">Refreshing recipe and full of vitamins for your breakfast</p>
+                    <button class="card__button">See recipe</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="who-we-are">
+            <h2 class="who-we-are__title">Who we are</h2>
+            <p class="who-we-are__description">Meet the community behind the initiative</p>
+            <div class="people">
+                <div class="person__card">
+                    <div class="card__image card__image--roberta"></div>
+                    <span class="card__name">roberta</span>
+                    <span class="card__work">content</span>
+                </div>
+                <div class="person__card">
+                    <div class="card__image card__image--marcela"></div>
+                    <span class="card__name">marcela</span>
+                    <span class="card__work">chef</span>
+                </div>
+                <div class="person__card">
+                    <div class="card__image card__image--andrea"></div>
+                    <span class="card__name">andrea</span>
+                    <span class="card__work">producer</span>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <h3 class="footer__title">alura fruity fruit 2023</h3>
+            <p class="footer__description">contacto</p>
+            <ul class="footer__list">
+                <li class="footer__item"><a href="#" class="footer__icon"></a><img src="./assets/img/WhatsApp.png" alt="whatsapp logo"></li>
+                <li class="footer__item"><a href="#" class="footer__icon"></a><img src="./assets/img/email.png" alt="email logo"></li>
+                <li class="footer__item"><a href="#" class="footer__icon"></a><img src="./assets/img/Instagram.png" alt="instagram logo"></li>
+            </ul>
+        </footer>
+        
+    </body>
+</html>
